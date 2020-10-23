@@ -53,7 +53,7 @@ def error(update, context):
 def main():
 
     """Inicializar el bot"""
-    updater = Updater("1290965102:AAFVM1JoMCXD6H1B0tmugtuErMYKVSM9AJM", use_context=True)
+    updater = Updater("[ID DEL BOT DE TELEGRAM]", use_context=True)
 
     # Dispatcher para registrar los handlers
     dp = updater.dispatcher
